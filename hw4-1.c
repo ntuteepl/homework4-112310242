@@ -11,12 +11,12 @@ int main()
 for (j = 2 ; j < i ; j++ ){
 if ( i%j == 0 )
 {
-printf("no ");
+printf("NO ");
 break;
 }
 }
 if ( i == j ){
-printf("yes ");
+printf("YES ");
 }
 n=n-1;
 }
