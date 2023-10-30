@@ -41,7 +41,7 @@ int main() {
    printf("%d\n", cars);
    cars=0;
     for (int i = 0; i < n; i++) {
-        if (t[i][0] != 0) { // Skip already processed rows
+        if (t[i][0] != 0) {
             cars++;
             printf("Driver %d's schedule is %d %d ", cars, t[i][0], t[i][1]);
 
